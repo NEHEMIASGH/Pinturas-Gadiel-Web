@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Servicios de pintura profesional en interiores y exteriores. Revestimientos, impermeabilización y tratamientos para madera. Calidad y garantía asegurada." />
+    <meta name="keywords"
+        content="pintor, pintura, revestimientos, impermeabilización, decoración, hogar, mantenimiento" />
+    <title>Pinturas Gadiel - Servicios Profesionales</title>
+    <!-- FontAwesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <!-- Vinculamos nuestro archivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Header: El encabezado principal de la página -->
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="logo.jpg" alt="Logo Pinturas Gadiel" class="header-logo">
+                <h1>Pinturas Gadiel 🎨</h1>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- Sección de Servicios -->
+        <section id="servicios" class="services">
+            <h2>Servicio de Pintura Profesional 💥</h2>
+            <p><strong>¡Transformamos tus espacios en lugares únicos!</strong></p>
+            <p>En <strong>Pinturas Gadiel</strong>, entendemos que pintar no es solo cambiar un color, es renovar la
+                energía de tu hogar o negocio. Ofrecemos un servicio integral de pintura profesional para
+                <strong>exteriores, interiores, revestimientos texturados y tratamientos para madera</strong>.
+            </p>
+
+            <div class="highlight-box">
+                <p>✨ <strong>Equipo de Trabajo Profesional</strong> | 🛡️ <strong>Trabajos con Garantía
+                        Asegurada</strong></p>
+            </div>
+
+            <h3>Nuestras Especialidades 💪</h3>
+            <p>Nos especializamos en brindar acabados perfectos y duraderos. Cubrimos todas las necesidades de
+                mantenimiento estético:</p>
+            <ul class="service-list">
+                <li>🔸 <strong>Aberturas y Rejas:</strong> Restauración y protección contra el óxido.</li>
+                <li>🔸 <strong>Muros Interiores y Exteriores:</strong> Colores vibrantes y líneas perfectas.</li>
+                <li>🔸 <strong>Revestimiento de Frentes:</strong> Aplicación de texturados (Tarquini, Revear) para
+                    una
+                    fachada moderna.</li>
+                <li>🔸 <strong>Impermeabilización:</strong> Trabajos con Plavicon y membranas líquidas para techos y
+                    paredes.</li>
+                <li>🔸 <strong>Madera:</strong> Tratamientos con barniz, lacas y sintéticos para resaltar la belleza
+                    natural.</li>
+                <li>🔸 <strong>Pintura Epoxi:</strong> Para pisos de alto tránsito y superficies industriales.</li>
+            </ul>
+            <p>Además, realizamos <strong>Hidrolavado de alta presión</strong> para limpiar superficies antes de
+                pintar
+                y colocación/reparación de <strong>Revestimientos de Durlock</strong>.</p>
+
+            <div class="content-image-container">
+                <img src="imagen2.jpg" alt="Trabajo de Pintura Realizado con Excelencia" class="content-image">
+            </div>
+        </section>
+
+        <!-- Sección de Galería de Proyectos -->
+        <section id="galeria" class="gallery">
+            <h2>Nuestros Proyectos ✨</h2>
+            <p>Explora algunos de nuestros trabajos más recientes y descubre la calidad y el detalle que ponemos en
+                cada
+                proyecto.</p>
+
+            <!-- Project Grid -->
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="imagen3.jpg" alt="Hidrolavado">
+                    <div class="overlay">Hidrolavado</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="imagen4.jpg" alt="Pintura de alto Transito">
+                    <div class="overlay">Pintura de alto Transito</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="imagen5.jpg" alt="Recuperacion de Madera">
+                    <div class="overlay">Recuperacion de Madera</div>
+                </div>
+            </div>
+
+            <p class="gallery-cta">¿Te gustaría ver más? ¡Contáctanos para una consulta personalizada!</p>
+        </section>
+
+        <!-- Sección de Antes y Después -->
+        <section id="antes-despues" class="gallery">
+            <h2>Transformaciones Reales 🛠️</h2>
+            <p>Mira el increíble cambio que logramos en este proyecto. De un espacio desgastado a uno totalmente
+                renovado y lleno de vida.</p>
+
+            <!-- Custom Flex Layout for Before/After -->
+            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+
+                <!-- Left Column: Antes (Large) -->
+                <div style="flex: 1; min-width: 300px;">
+                    <div class="gallery-item" style="height: 100%;">
+                        <img src="antes.jpg" alt="Antes de la renovación" style="height: 520px; object-fit: cover;">
+                        <div class="overlay" style="transform: translateY(0);">Antes</div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Después & Resultado (Stacked) -->
+                <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 20px;">
+                    <div class="gallery-item">
+                        <img src="despues2.jpg" alt="Después de la renovación"
+                            style="height: 250px; object-fit: cover;">
+                        <div class="overlay" style="transform: translateY(0);">Después</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="despues.jpg" alt="Resultado Final" style="height: 250px; object-fit: cover;">
+                        <div class="overlay" style="transform: translateY(0);">Resultado Final</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sección: Sobre Mí -->
+        <section id="sobre-mi">
+            <h2>Sobre Mí 🙋‍♂️</h2>
+            <p>Hola, soy <strong>Heredia Julio</strong>, fundador de Pinturas Gadiel. Con años de experiencia en el
+                rubro, me dedico a brindar soluciones de pintura y mantenimiento con pasión, honestidad y un
+                obsesivo
+                cuidado por el detalle.</p>
+
+            <h3>¿Por qué elegirnos?</h3>
+            <p>Mi filosofía de trabajo se basa en tres pilares fundamentales:</p>
+            <ul>
+                <li>✅ <strong>Responsabilidad:</strong> Cumplimos con los horarios y plazos acordados. Tu tiempo
+                    vale
+                    oro.</li>
+                <li>✅ <strong>Limpieza:</strong> Cuidamos tus muebles y pisos como si fueran nuestros. Dejamos todo
+                    impecable al terminar.</li>
+                <li>✅ <strong>Calidad:</strong> Utilizamos materiales de primera línea y técnicas modernas para
+                    asegurar
+                    un acabado que dure años.</li>
+            </ul>
+            <p>Cada proyecto es un desafío personal para superar las expectativas del cliente. No solo pintamos
+                paredes,
+                creamos ambientes donde te sientas a gusto.</p>
+        </section>
+    </main>
+
+    <!-- Footer: Pie de página con información de contacto -->
+    <footer id="contacto">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contacto Rápido</h3>
+                <!-- Enlace telefónico -->
+                <p>📞 <a href="tel:+5492344400311">2344 400311</a></p>
+
+                <!-- Enlace a Facebook -->
+                <p>📍 <a href="https://www.facebook.com/julio.heredia.892644" target="_blank">Facebook</a></p>
+
+                <!-- Enlace a Instagram -->
+                <p>📸 <a href="https://www.instagram.com/jh6178702024/" target="_blank">Instagram</a></p>
+
+                <!-- Enlace de Gmail -->
+                <p>✉️ <a href="mailto:herediajulio242@gmail.com" target="_blank">Gmail:herediajulio242</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Pinturas Gadiel. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/5492344400311" class="whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Script para el año actual
+            const yearSpan = document.getElementById('year');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+
+            // Script para el menú móvil
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            const nav = document.querySelector('.main-nav');
+
+            if (menuBtn && nav) {
+                menuBtn.addEventListener('click', () => {
+                    nav.classList.toggle('active');
+                });
+            }
+
+            // Lightbox Script
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const closeBtn = document.querySelector('.close-lightbox');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            if (lightbox && lightboxImg && closeBtn) {
+                galleryItems.forEach(item => {
+                    item.addEventListener('click', function () {
+                        const img = this.querySelector('img');
+                        if (img) {
+                            lightboxImg.src = img.src;
+                            lightbox.style.display = 'flex';
+                        }
+                    });
+                });
+
+                closeBtn.addEventListener('click', () => {
+                    lightbox.style.display = 'none';
+                });
+
+                lightbox.addEventListener('click', (e) => {
+                    if (e.target === lightbox) {
+                        lightbox.style.display = 'none';
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>
